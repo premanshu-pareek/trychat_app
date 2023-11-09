@@ -4,17 +4,16 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBHQUCW8vZAm0MZkA3tFm7fXMaAKbDq-rs",
-    authDomain: "trychat-8b941.firebaseapp.com",
-    projectId: "trychat-8b941",
-    storageBucket: "trychat-8b941.appspot.com",
-    messagingSenderId: "621459607496",
-    appId: "1:621459607496:web:25956ddb20d9e6830b7afd"
+    apiKey: "AIzaSyBs6mf7JjBTvLx-FL0YWmLaxwJitxEj0sk",
+    authDomain: "trychatv2-787fb.firebaseapp.com",
+    projectId: "trychatv2-787fb",
+    storageBucket: "trychatv2-787fb.appspot.com",
+    messagingSenderId: "607450833825",
+    appId: "1:607450833825:web:fe50ffdaf8a0f7274d21e0"
   };
   
-
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
 export const storage = getStorage();
-export const db = getFirestore()
+export const db = getFirestore(app)
