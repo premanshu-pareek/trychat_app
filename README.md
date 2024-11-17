@@ -1,5 +1,7 @@
 # Try Chat App
 
+Note: The project has bugs in some modules. It will take some time for to get back to it and fix it. PRs are always welcome.
+
 This is a web chat app created using React, utilizing Firebase for authentication and storage. The project is based on the tutorial by Lama Dev, and you can find Lama Dev's YouTube channel [here](https://www.youtube.com/@LamaDev).
 
 ## Installation
